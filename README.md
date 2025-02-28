@@ -4,7 +4,7 @@
 (https://dacon.io/competitions/official/236446/overview/description)
 
 - my best score : 0.67534
-- env : runpod.io 
+- env : (runpod.io) H200 SXM (train) + RTX 4090 (inference) + A40 (aug, test, etc)
 
 ### description 
 
