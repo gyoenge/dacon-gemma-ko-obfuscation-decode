@@ -1,0 +1,34 @@
+,data,,base weight,LoRA,,,TRAINER,,,,,result,,
+,dataset,prompt,base weight,target_modules,r,lora_alpha,epoch,batch,learning_rate,gradient_accumulation_steps,warmup_steps,loss by epoch,inf test,submit
+1,"원본train, 
+0.1 eval","inst+inout 
+단순 접합",gemma base,"q, k, v, o",4,32,5,4,2.00E-04,8,10,"[1580/1580 53:33, Epoch 4/5]
+Epoch        Training Loss        Validation Loss
+1        1.585600        1.383088
+2        1.292100        1.278292
+3        1.209900        1.233846
+4        1.131100        1.202300
+TrainOutput(global_step=1580, training_loss=1.275977817969986, metrics={'train_runtime': 3218.111, 'train_samples_per_second': 15.748, 'train_steps_per_second': 0.491, 'total_flos': 6.009973377429504e+17, 'train_loss': 1.275977817969986})","위치랑 도시 뷰가 좋았던 호텔 (성공)
+- 장문 잘 안됨",0.67534
+2,"input
++restored
++noised 
+0.1 eval","inout 
+단순 접합",1,"q, k, v, o",4,32,5,8,2.00E-04,8,10,"[790/790 43:19, Epoch 4/5]
+Epoch        Training Loss        Validation Loss
+1        0.788200        0.774416
+2        0.728700        0.756229
+3        0.704900        0.750294
+4        0.671500        0.738431
+TrainOutput(global_step=790, training_loss=0.7160028771509098, metrics={'train_runtime': 2606.6383, 'train_samples_per_second': 19.443, 'train_steps_per_second': 0.303, 'total_flos': 1.0084180393343386e+18, 'train_loss': 0.7160028771509098})","위치랑 도시 뷰가 좋았던 호텔 (성공)
+- 장문 잘 안됨",
+3,"input
+0.1 eval","inout 
+단순 접합",2,"q, k",4,32,5,4,2.00E-04,8,10,"[1580/1580 27:08, Epoch 4/5]
+Epoch        Training Loss        Validation Loss
+1        1.738600        1.778242
+2        1.678200        1.757370
+3        1.616100        1.741204
+4        1.505200        1.739605
+TrainOutput(global_step=1580, training_loss=1.61899427582946, metrics={'train_runtime': 1632.2358, 'train_samples_per_second': 31.049, 'train_steps_per_second': 0.968, 'total_flos': 4.324872732191539e+17, 'train_loss': 1.61899427582946})","위치랑 도시 뷰가 좋았던 호텔 (성공)
+- 장문 잘 안됨",
