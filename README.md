@@ -4,6 +4,7 @@
 (https://dacon.io/competitions/official/236446/overview/description)
 
 - my best score : 0.67534
+- env : runpod.io 
 
 ### description 
 
