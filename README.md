@@ -1,8 +1,11 @@
-### dacon-gemma-ko-obfuscation
+## dacon-gemma-ko-obfuscation
 
 : dacon "난독화된 한글 리뷰 복원 AI 경진대회" 
 (https://dacon.io/competitions/official/236446/overview/description)
 
+- my best score : 0.67534
+
+### description 
 
 - dataset : train.csv, trains_augmented_1,2.csv, test.csv 
 - submition file : sample_submission.csv, submission.csv 
