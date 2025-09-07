@@ -1,7 +1,7 @@
 # DACON Restoring Obfuscated Korean Review   
 ## gemma model 
 
-- Event: DACON Korean Review Obfuscation AI Competition (February 2022)
+- Event: DACON Korean Review Obfuscation AI Competition (February 2025)
   [DACON Competition Link](https://dacon.io/competitions/official/236446/overview/description)
 - Theme: Developing an AI algorithm to reconstruct obfuscated Korean reviews into their original form
 - Idea: **LoRA fine-tuning of beomi/gemma-ko-7b model** on the given training dataset
